@@ -25,23 +25,23 @@ Handling datasets with a massive amount of features (1200+) relative to sample s
    git clone [https://github.com/Arigele/toxicity-prediction.git](https://github.com/Arigele/toxicity-prediction.git)
    cd toxicity-prediction
    ```
-   2. **Create a virtual environment (recommended):**
+2. **Create a virtual environment (recommended):**
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use
    `venv\Scripts\activate`
    ```
-   3. **Install dependencies:**
+3. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
-   4.  **Run the pipeline:**
+4.  **Run the pipeline:**
    Make sure your dataset is placed in the `data/` folder and named exactly `data.csv ML2.csv`.
    ```bash
    cd src
    python main.py
    ```
-   ## Results & Evaluation
+## Results & Evaluation
 
 The final Random Forest model achieved an overall accuracy of **68.6%**. 
 
