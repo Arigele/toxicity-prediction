@@ -1,0 +1,8 @@
+﻿pandas==2.2.0
+numpy==1.26.3
+matplotlib==3.8.2
+seaborn==0.13.1
+scikit-learn==1.4.0
+
+
+(Note: Version numbers are approximations of recent stable versions; you can also just list the package names without versions).
